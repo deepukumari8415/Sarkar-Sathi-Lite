@@ -7,40 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-
-    <h1>🇮🇳 Sarkar Sathi AI</h1>
-    <p>Your Offline Government Assistant</p>
-
-    <div id="chatBox" class="chat-box">
-        <div class="bot">
-            👋 Hello! I am Sarkar Sathi.<br><br>
-            Ask me about:
-            <br>• Aadhaar
-            <br>• PAN Card
-            <br>• PM Kisan
-            <br>• Scholarship
-            <br>• Passport
-            <br>• Government Jobs
+    <div class="container">
+        <h1>🤖 Sarkar Sathi AI</h1>
+        <p>Ask about Aadhaar, PAN, PM Kisan, Passport, Scholarship, Jobs</p>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your question here...">
+            <button id="sendBtn">Send</button>
         </div>
     </div>
-
-    <div class="inputArea">
-        <input
-            type="text"
-            id="userInput"
-            placeholder="Type your question here..."
-        >
-
-        <button id="sendBtn">
-            Ask
-        </button>
-    </div>
-
-</div>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
